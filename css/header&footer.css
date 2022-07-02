@@ -1,0 +1,128 @@
+.header{
+	width: 100%;
+	height: 100vh;
+	padding: 25px 50px;
+	background-image: url(../images/header-bg.jpg);
+	background-size: cover;
+	margin-bottom: 3%;
+}
+.header__logo {
+	width: inherit;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10%;
+}
+
+.logo__text {
+	z-index: 2;
+	font-size: 42px;
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	color: #fff;
+	text-shadow: 0px 0px 5px #555;
+	-webkit-text-stroke: 0.4px grey;
+}
+
+.header__img {
+	height: 100%;
+	transform: rotateZ(20deg);
+	z-index: 1;
+}
+
+.header__nav {
+	height: 90%;
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header__support-text {
+	font-size: 52px;
+	width: 50%;
+	color: #fff;
+	text-shadow: 0px 0px 10px #000;
+	-webkit-text-stroke: 0.2px #000;
+	margin-bottom: 15px;
+	transition: 0.3s;
+}
+
+.header__support-btn {
+	padding: 8px 12px;
+	border: 2px solid #fff;
+	border-radius: 4px 8px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-size: 20px;
+	box-shadow: 0px 0px 10px #000;
+	text-shadow: 0px 0px 2px #000;
+	transition: 0.3s;
+}
+
+.header__support-btn:hover {
+	border-radius: 9px 4px;
+	color: #000;
+	background-color: #fff;
+	text-shadow: none;
+	transition: 0.5s;
+}
+
+
+
+.footer{
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0px 0px 5px #555;
+	margin-top: 3%;
+}
+.footer__logo{
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.footer__nav{
+	display: flex;
+}
+.footer__list{
+	list-style: none;
+	display: flex;
+}
+.footer__item{
+	margin: 0% 10px;
+}
+.footer__link{
+	text-decoration: none;
+	padding: 6px 12px;
+	border-radius: 3px;
+	border: 0.5px solid rgba(128, 128, 128, 0);
+	color: #000;
+	transition: 0.2s;
+}
+.footer__link:hover{
+	border-color: grey;
+	transition: 0.2s;
+}
+.footer__phone,
+.footer__mail{
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	color: #252525;
+}
+.footer__phone:hover,
+.footer__mail:hover{
+	text-decoration: underline;
+}
+.footer__img{
+	height: 80%;
+}
