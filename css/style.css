@@ -22,7 +22,7 @@
 	-webkit-text-stroke: 0.8px #555;
 }
 body{
-	background-image: url(/images/bg.png);
+	background-image: url(./images/bg.png);
 }
 
 @media screen and (max-width: 810px){
