@@ -149,10 +149,10 @@ body{
 		background-position: center;
 	}
 	.do {
-		background-image: url(/images/do-img.png);
+		background-image: url(./images/do-img.png);
 	}
 	.result {
-		background-image: url(/images/result-img.png);
+		background-image: url(./images/result-img.png);
 	}
 	.do__col:last-child,
 	.result__col:first-child {
